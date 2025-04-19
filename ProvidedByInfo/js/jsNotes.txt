@@ -1,0 +1,290 @@
+17/4/25
+
+Javascript: 
+-it is use to add functionality into webapp.
+-it is loosly typed language.
+-it inter preted language.
+
+*there are two ways to use Javascript
+1.internal Javascript: in html file we use script tag in that we wrire js code.
+2.external Javascript in this we creatw a sepreate js file and import it in html file by using script tag.
+
+*how to get or display output in javascript.
+1.document.write(): it will display output on browser. it will display output same line.
+2.window.alert(): in will generare popup window and display output in it.
+3.console.log():it will display output in browser console or in terminal.
+4.innerHTML (DOM):it is use to insert data inside an element by using its id.
+
+*Variable in javascript 
+*in Javascript there are three ways to create variable 
+var,let,const 
+
+Q.why javascript is called as loosly typed. 
+Q.what is hoisting.
+-it is default javascript behaviour which moves variable declaration at top. this we can use variable first and then declare it.
+
+Q.differance between var let and const.
+
+var : it create function scope variable.
+     -we can use variable before declaration of it.
+     -we can redeclare variable
+
+let : it create block scrope variable.
+    -we can not use variable before declaration of it.
+    -we can not redeclare variable.
+
+const : it values will never change at run time.
+       -when we declare we have initiLIZE AT SAME TIME.   
+
+
+2009(ES5 ECMA5), 2015(ES6)
+
+*function in javascript
+-it is block of code which is use to perform perticular tas.
+-function will execute only when we call it.
+-function can reuse multiple time.
+
+*array:
+-it is use to store multiple values with same data type.
+-in array data store on index basis.
+-array index always from zero index.
+-it is denoted by [];
+*array method 
+================================================================
+18/04/25
+
+*object : 
+-it is use to store multiple with different data types.
+-in object data store in key and value paire formate.
+-we can access object data outside by writting object.keyname.
+-object data represent {}.
+
+*array of object 
+
+*string and its mathod
+string: 
+-it is collection of character.
+-in string every letter and space has index number.
+-string index start from zero .
+-we can write string in "" or '' .
+
+*there three methode which will index of searching string. 
+1.indexOf(searchingString,startIndex):
+-it will seach string from left to right and return index of first occurences of  searching string.
+-it takes two parameter 1.searchingString,2.startIndex.
+-if searching string do found then it will return -1 value.
+
+2.lastIndxOf(searchingString,startIndex):
+-it will seach string from right to left and return index of first occurence of  searching string.
+-it takes two parameter 1.searchingString,2.startIndex.
+-if searching string do found then it will return -1 value.
+
+3.search(searchingString):
+-it will seach string from left to right and return index of first occurence of searching string.
+-it takes one parameter 1.searchingString.
+-if searching string do found then it will return -1 value.
+-it is fater than indexOf method.
+
+*there are three method which will retun part of string from large string
+4.slice(startIndex,endIndex):
+-it will return part of string.
+-it will search string from left to right when you pass +ve index.
+-it will search string from right to left when you pass -ve index.
+
+5.subString(startIndex,endIndex):
+-it will return part of string.
+-it will search string from left to right it will accept only you pass +ve index.
+
+6.subStr(startIndex,total-numner-of-character):
+-it will return part of string.
+-it will search string from left to right it will accept only you pass +ve index.
+
+*Date and Time :
+-in js if you want to get date and time for this first we have to create object of datae class.
+-data class object return data and time form browser.
+sytax: how tocreate object of date class.
+      let objname = new Date();
+
+sun=0
+mon=1
+fri=5
+sat=6
+
+jan=0,feb=1....dec=11
+Task: get method by using date class object and display current month name.
+Task: design and digital clock 
+
+*how to set data and time 
+ let objname = new Date(year,month,date,hours,minutes,second);
+
+
+*What is call back functiuon.  
+-pasing a function name as an argument inside another function is called callback function.
+
+*setTimeout 
+*setInterval 
+
+*ES5 (ECMA5) -2009
+1."use strict" : it is execute js code in stric mode.
+                -it never allow to use variable before declaration of it.
+                -it write at top of page.
+2.trim(): 
+it is use to remove unwanted white space from both side of string.    
+
+*map,filter,every,some,reduce,reduceright 
+
+*form validation: 
+-to check wehter user enter data is correct or wrong
+-there are two ways to perform form validation 
+1. after submitting form data(onsubmit event) 
+2. before submitting form data(onblure or onchage).
+
+*external javascript
+Task1: task is on replace methode as shown in image
+task2: coply paste temprary address asme as permanant address when you click on button as shown in image
+Task3: get method by using date class object and display current month name.
+Task4: design and digital clock 
+task5: password,contact,email,select course(droupdown),gender
+====================================================================
+19/4/25
+
+*differance between == and  ===;
+== : it compare and check values if it is same then it retun true result.
+=== : it will compare and check values as well datatype of variable if both are same then and only then, it return true.
+5==5
+true
+5=='5'
+true
+5===5
+true
+5==='5'
+false
+
+*how to hide and show imagees by using js.
+
+*form validation beore submitting for data 
+-onblure or onchange 
+
+
+
+DOM(Document Object Model) manipulation 
+
+
+
+
+*instalation of nodejs 
+node -v 
+npm -v   
+
+
+*module : 
+-it is javascript code orgnize in single or multiple js file we can reuse throughout application by exporting and importing.
+-we can send data by using export keyword.
+-we can access data by using import keyword.
+
+*how to export function 
+*how to export string literal 
+*how to export class 
+
+
+*BOM(Browser Object Model):
+it is use to perform browser related operation for that we use it.
+-to open new indow or tab 
+-to navigate another location 
+-use settimeout or setInterval 
+
+object comes with BOM 
+window,navigator,location,history
+
+*Math function 
+Math.abs(123.4)
+123.4
+Math.ceil(5.6)
+6
+Math.floor(5.6)
+5
+Math.round(5.5)
+6
+Math.round(5.4)
+5
+Math.random() : it will retun random number in between 0 and 1
+0.5752742824104334
+
+Task : perform form validation for password before submitting form daata.
+Task: create array of object for 10 employee having id,name,post,salary,address data and display it in table by using DOM manipulation 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
